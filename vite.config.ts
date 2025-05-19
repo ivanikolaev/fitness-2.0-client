@@ -11,6 +11,6 @@ export default defineConfig({
       host: true,
       strictPort: true,
       port: 5173,
-      allowedHosts: ['https://fitness-2-0-client.onrender.com/'],
+      allowedHosts: ['fitness-2-0-client.onrender.com', 'localhost', '127.0.0.1'],
     }
   })
